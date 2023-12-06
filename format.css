@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'hypatia-sans-pro' , sans-serif;
+}
+.nav{
+    padding: 0px 15px 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url('animals_hero_chimpanzee.jpg');
+    min-height: 50vh; */
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.nav button{
+    width: 8%;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.donate{
+    background-color: green;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.donate:hover{
+    color: green;
+    background-color: #fff;
+}
+.shop{
+    color: blue;
+    background-color: black;
+    border-radius:0.5rem ;
+}
+.shop:hover{
+    color: red;
+    background-color: ghostwhite;
+}
+.content img{
+    height: 85vh;
+    width: 100%;
+}
